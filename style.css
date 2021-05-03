@@ -1,0 +1,480 @@
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+:root{
+     --font-family-base:"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+/* header one start */
+.navbar{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.logo{  
+    margin-right: 3%;
+   width: 10%;
+   height: 30px;   
+}
+.nav-item{
+ font-family:var(--font-family-base) !important;
+    padding: 10px;
+    
+    font-size: 15px;
+}
+.nav-item a:hover{
+    color: #6fda44 !important;
+}
+.input{
+    border: 1px solid gray;
+    padding-left:   8px;
+    padding-right:80px;
+    border-radius: 50px;
+}
+.form-control{
+    border: none!important; 
+}
+.fa-search{
+    color: #6fda44 !important;
+}
+.fa-sort-desc{
+    color: #6fda44 !important;
+}
+/* header one end */
+/* second header */
+.collapsesecond{
+ margin-left: 8%;
+ margin-right: 5%;
+}
+.nav-itemsecond{
+    font-family:var(--font-family-base) !important;
+    font-size: 13px; 
+}
+.nav-itemsecond a:hover{
+    color: #6fda44 !important;
+}
+/* second header end */
+/* start text & image */
+.container{
+    margin-top:2% !important;;
+}
+
+.headingone{
+    margin-top:8%;
+    font-family: "Canela Web";
+    color: #1d4354;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+    
+    font-family: "Canela Web";      
+}
+.paragraphone{
+    margin-top: 7%;
+    color: #4e6c79;
+    letter-spacing:1px;
+    font-size: 23px; 
+}
+.btnone{ 
+    margin-top: 12px !important;
+    font-size: medium;
+    height: 38px;
+    width: 23%;
+}
+.btntwo{
+    
+    margin-top: 12px !important;
+    font-size: medium;
+    height: 38px;
+    width: 23%;
+    margin-left: 5%;
+    color: #6fda44 !important;
+   border: whitesmoke 1px solid;
+    background-color: white;  
+}
+.btntwo:hover{
+    background-color: white !important;
+}
+.iconimage{
+    margin-right: 10% !important;
+    margin-top:15%;
+justify-content: space-between;
+    display:flex;
+}
+.micro{
+    image-resolution: 3000dpi;
+    width:10%;
+    height:25px;
+}
+.air{
+    image-resolution: 3000dpi;
+    width:10%;
+    height:25px;
+}
+.ge{
+    image-resolution: 3000dpi;
+    width:8%;
+    height:28px;
+}
+.godaddy{
+    image-resolution: 3000dpi;
+    width:12%;
+    height:30px;
+}
+.bissell{
+    image-resolution: 3000dpi;
+    width:10%;
+    height:35px;
+}
+/* end text & image */
+/* start icon */
+ .iconcontainer{
+margin: 5% 10% 0 10% !important;;
+}
+.iconcontainer>svg{
+ margin-left: 50%;
+ margin-right: 50%;
+}
+.iconcontainer>svg:hover{
+    cursor: pointer;
+}
+/* end icon */
+/* start heading and paragraph*/
+ .containerone{
+    margin: 6% 10% 0 10% !important;
+    }
+.paragraphtwo{
+    font-weight: bold;
+    font-family: var(--font-family-base);
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;    
+    text-transform: uppercase!important;
+    letter-spacing: 1.5px;
+    margin-left: 5% !important;
+    color: #656565;
+}
+.headingtwo{
+    letter-spacing: -.1px;
+    margin-left: 6% !important;
+    margin-top: 3%;
+    font-size: 60px;
+    line-height: 58px;
+    letter-spacing: -.1px;
+    font-weight: 300px;
+    font-family: "Canela Web";
+    text-align: center;
+    color: #1D4354;
+}
+.paragraphthree{
+    margin-left: 1%!important;
+    margin-top: 3%;
+    margin-left:0 0 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -.4px;
+    font-family:"Canela Web"!important; 
+    color:#4e4e4e; 
+}  
+/* end heading and paragraph*/
+/* start card */
+.containertwo{
+    margin: 3% 10% 0 10% !important;
+} 
+.card-title{
+    margin: top 2% !important;;
+    margin: 0 0 30px;
+    font-family: "Canela Web"; 
+    font-size: 37px !important;
+    line-height: 38px !important;
+    font-weight: lighter !important;
+    color:#1d4354;
+    }
+.card-text{
+margin-top: 5% !important;
+    font-size: 19px;
+    line-height: 18px;
+    font-weight:300px !important;
+    color: #656565;
+    font-family: var(--font-family-base);
+}
+.card{
+      width: 101% !important;
+    height: 170% !important;
+    box-shadow: 0 0 20px hsl(0deg 0% 40% / 12%);
+} 
+.fa-arrow-right{  
+    color: white;
+    position: absolute !important;
+    right: 0 !important;
+    bottom: 0 !important;  
+    width: 60px !important;
+    height: 65px !important;
+font-size: xx-large !important;
+background-color: #6fda44 !important;
+margin-left: 90%!important;
+padding: 17px !important;
+}
+.card:hover{
+    background-color:#6fda44 !important;   
+}
+.card-title:hover{
+    color: white!important;
+}
+.card-text:hover{
+    color: white!important;
+}
+.fa-arrow-right:hover{
+    color:#6fda44 !important; 
+    background-color: white !important;
+}
+.paragraphfour{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -.3px;
+    text-align: center;
+    font-family:var(--font-family-base);
+}
+.paragraphfour>a{
+    color:#37a000;
+} 
+/* end card */
+/* start skill */
+ .containerthree{
+    margin: 5% 10% 0 10% !important;
+}
+.one,.two,.three,.four,.five,.six,.seven{
+    font-size: 65px;
+    line-height: 58px;
+    font-family: "Canela Web";
+    font-style: normal;
+    font-stretch: normal;
+    padding: 5px!important;
+    color: black;
+}
+.seven{
+    color:#37a000;
+}
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover{
+    cursor: pointer;
+    color:#6fda44; 
+}
+
+.btnskillone,.btnskilltwo,.btnskillthree,.btnskillfour,.btnskillfive,.btnskillsix,.btnskillseven,.btnskilleight{
+    height: 40px;
+    font-size: 17px;
+    font-family: var(--font-family-base);
+    border-radius: 50px;
+  margin:   0 5px 10px 0;
+  color: #1d4354;
+    border: 1px solid  #1d4354;
+}
+.btnskillone,.btnskilltwo{
+    margin-top:5%;
+}
+.btnskillone:hover,.btnskilltwo:hover,.btnskillthree:hover,.btnskillfour:hover,.btnskillfive:hover,.btnskillsix:hover,.btnskillseven:hover,.btnskilleight:hover{ 
+    background-color: #1D4354;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+} 
+/* end skill */
+/* start second heading and paragraph */
+.containerfour{
+    margin: 5% 10% 0 10% !important;
+}
+/* end second heading and paragraph */
+/* start second card */
+.containerfive{
+ margin: 3% 8% 0 8% !important;
+}
+/* end second card */
+/* start second image and paragraph */
+.containersix{
+     margin: 1% 10% 0 10% !important;
+}
+.downloadone{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 20px;
+    width:55%;
+    height: 100%;
+}
+.descriptionone{
+    position: absolute;
+}
+.descriptiontwo{
+    position: absolute;
+}
+.freelance{
+    font-size: 30px;
+    margin-left: 640px !important;
+    margin-top: 60px !important;
+    font-family: "Canela Web"; 
+    color: #1d4354;
+}
+.final>strong{
+    font-size: 20px;
+    margin-left: 640px !important;
+    margin-top: 34px;
+    color: #1d4354;
+}
+.final>span{
+    font-size: 20px;
+    margin-left: 640px !important;
+    color: #1d4354;  
+}
+.last{
+    font-size: 28px;
+    margin-top: 78% !important;
+    color: #1d4354;
+    margin-right: 10px !important;
+}
+.lastone>strong{
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 31px;
+    color: #1d4354;
+}
+.lastone>span{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #1d4354;
+}
+/* end second image and paragraph */
+/* start rate image */
+.downloadtwo{
+    margin: 52% 10% 0 10% !important;
+    margin-left:30% !important;
+}
+/* end rate image*/
+/* start second skill */
+.containerseven{
+    margin: 6% 10% 0 10% !important;
+}.skillone,.skilltwo,.skillthree,.skillfour,.skillfive{
+    height: 40px;
+    font-size: 18px;
+    font-family: var(--font-family-base);
+    border-radius: 50px;
+    margin: 5px !important;
+    color: #1d4354;
+    border: 1px solid  #1d4354;
+}
+.skillone:hover,.skilltwo:hover,.skillthree:hover,.skillfour:hover,.skillfive:hover{
+    background-color: #1D4354;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.seemore{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+.seemore{
+    cursor: pointer;
+}
+/* end second skill */
+/* start button */
+ .containereight{
+    margin: 3% 45% 0 45% !important;
+}
+.browse{
+    height:120%;
+    width: 130px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--font-family-base);
+}
+.browse:hover{
+    cursor: pointer;
+}
+/* end button */
+/* start footer one */
+.footer{
+    margin-top: 5% !important;
+    background-color: #1d4354;
+    border:1px solid white;
+}
+.containernine{
+    margin-top:1% !important;
+    background-color: #1d4354;
+  
+}
+.containernine>.row{
+    margin-left: 5% !important;
+    margin-right:  5% !important;
+}
+.fone{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin-left: 14% !important;
+        margin-top:10% !important;
+        font-family: var(--font-family-base);
+    }
+.ftwo{
+    list-style: none;
+    color: white;
+    font-family: var(--font-family-base);
+    font-size: 14px;
+line-height: 30px !important;
+}
+/* end footer one */
+/* start second footer */
+.containernine>.w-100>.second{
+    border-top: 1px solid  #2b5468;
+    border-bottom: 1px solid  #2b5468;
+    margin:1% 9% 0 9% !important;
+}
+.col-8,.col-4{
+    margin-top:1% !important;
+}
+.col-8>p>span{
+    color: white;
+}
+.col-8>p{
+    color: white;
+    font-size: 15px;
+}
+.col-4>p{
+    color: white;
+    font-size: 15px;
+}
+.col-4>p>span{
+color: white;
+}
+.fa-facebook{
+    border-radius:50px;
+    border:1px solid #1d4354;
+    padding: 12px;
+    height: 40px;
+    width: 40px;
+    background-color: #2b5468;;
+}
+.fa-linkedin,.fa-twitter,.fa-youtube-play,.fa-instagram,.fa-apple,.fa-android{
+    border-radius:50px;
+    border:1px solid #1d4354;
+    padding: 12px;
+    height: 40px;
+    width: 40px;
+    background-color: #2b5468;;
+}
+
+/* end second footer */
+/* last footer */
+.containernine>.w-100>.third{
+    margin:1% 9% 0 9% !important;
+}
+.containernine>.w-100>.third>.col-3{
+    border-right: 1px solid #2b5468;
+}
+.containernine>.w-100>.third>.col-3,.col,.col-6>p{
+    color: white;
+    font-size: 13px;
+
+}
+
+/* last footer */
+
